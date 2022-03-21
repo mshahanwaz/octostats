@@ -4,7 +4,16 @@ html {
   box-sizing: border-box;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
   margin: 0;
+}
+
+:root {
+  --accent: #0057ff;
+  --dark: #000000;
+  --light: #ffffff;
+  --grey: #3a3a3a;
 }
