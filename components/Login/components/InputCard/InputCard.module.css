@@ -17,10 +17,10 @@
 
 .input {
   font-size: 2rem;
-  outline: 0 solid lightblue;
+  outline: 0 solid var(--accent-light);
   transition: outline 80ms;
 }
 
 .input:focus-visible {
-  outline-width: 10px;
+  outline-width: 5px;
 }

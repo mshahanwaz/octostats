@@ -13,18 +13,41 @@ html {
 
 :root {
   --accent: #539bf5;
+  --accent-light: #95c0f5;
+  --accent-dark: #0b5bbd;
   --dark: #22272e;
   --light: #f6f8fa;
   --grey: #444c56;
+  --grey-light: #5d6773;
+}
+
+::placeholder {
+  color: var(--accent-light);
+  font-weight: 500;
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 input {
   width: 400px;
   padding: 20px;
-  border: 3px solid var(--accent);
+  text-align: center;
+  background-color: var(--dark);
+  color: var(--light);
+  border: 5px solid var(--accent);
   border-radius: 10px;
+}
+
+a {
+  color: var(--accent-light);
+}
+
+a:hover {
+  color: var(--accent);
+}
+
+a:active {
+  color: var(--accent-dark);
 }

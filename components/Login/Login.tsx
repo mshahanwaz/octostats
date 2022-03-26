@@ -1,8 +1,8 @@
 import { FC } from "react";
 import styles from "./Login.module.css";
-import InputCard from "../InputCard";
-import RequestInfo from "../RequestInfo";
-import Footer from "../Footer";
+import InputCard from "./components/InputCard";
+import RequestInfo from "./components/RequestInfo";
+import Footer from "./components/Footer";
 
 const Login: FC = () => (
   <main className={styles.login}>

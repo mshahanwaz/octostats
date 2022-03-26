@@ -1,0 +1,7 @@
+.requestInfo {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  font: 500 1.5rem "Courier New", Courier, monospace;
+  color: var(--grey-light);
+}

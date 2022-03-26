@@ -1,0 +1,10 @@
+.login {
+  min-height: 100vh;
+  background-color: var(--dark);
+  color: var(--light);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  padding-top: 200px;
+}
