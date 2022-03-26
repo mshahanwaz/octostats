@@ -1,11 +1,13 @@
 import { FC } from "react";
-import Search from "../Search";
 import styles from "./Login.module.css";
+import InputCard from "../InputCard";
+import RequestInfo from "../RequestInfo";
+import Footer from "../Footer";
 
 const Login: FC = () => (
   <main className={styles.login}>
-    <Card />
-    <Status />
+    <InputCard />
+    <RequestInfo />
     <Footer />
   </main>
 );
