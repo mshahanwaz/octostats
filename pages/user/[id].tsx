@@ -1,13 +1,15 @@
 import * as React from "react";
 import { useRouter } from "next/router";
+import Profile from "../../components/Profile";
 
 const User: React.FC = () => {
   const router = useRouter();
   const { id } = router.query;
   return (
-    <div>
-      <h1>Routed page with id={id}</h1>
-    </div>
+    <>
+      <Profile />
+      <p>{id} is query</p>
+    </>
   );
 };
 
