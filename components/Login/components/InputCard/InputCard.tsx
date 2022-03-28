@@ -3,7 +3,7 @@ import * as React from "react";
 import Logo from "../../../../public/svgs/Logo";
 import { useRouter } from "next/router";
 
-const InputCard: React.FC = () => {
+export default function InputCard() {
   const [username, setUsername] = React.useState<string>("");
   const router = useRouter();
 
@@ -31,6 +31,4 @@ const InputCard: React.FC = () => {
       </form>
     </div>
   );
-};
-
-export default InputCard;
+}

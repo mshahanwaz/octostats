@@ -1,12 +1,9 @@
-import * as React from "react";
 import styles from "./Profile.module.css";
 
-const Profile: React.FC = () => {
+export default function Profile({ id }: { id: string }) {
   return (
     <div className={styles.profile}>
-      <h1>Profile</h1>
+      <h1>Profile of {id}</h1>
     </div>
   );
-};
-
-export default Profile;
+}

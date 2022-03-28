@@ -7,7 +7,7 @@ const User: React.FC = () => {
   const { id } = router.query;
   return (
     <>
-      <Profile />
+      <Profile id={id} />
       <p>{id} is query</p>
     </>
   );
