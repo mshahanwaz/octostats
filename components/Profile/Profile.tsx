@@ -1,9 +1,7 @@
 import styles from "./Profile.module.css";
 
-export default function Profile({ id }: { id: string }) {
-  return (
-    <div className={styles.profile}>
-      <h1>Profile of {id}</h1>
-    </div>
-  );
+export default function Profile(props: any) {
+  const { data } = props;
+
+  return <div className={styles.profile}></div>;
 }
